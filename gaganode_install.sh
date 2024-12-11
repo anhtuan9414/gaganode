@@ -71,5 +71,6 @@ while true; do
 done
 
 echo "Script completed successfully."
+sudo ./apps/gaganode/gaganode log
 
 /bin/bash
