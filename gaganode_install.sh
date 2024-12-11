@@ -16,7 +16,7 @@ fi
 
 # Step 1: Download and unzip
 echo "Downloading and extracting apphub..."
-curl -o apphub-linux-amd64.tar.gz $DOWNLOADLINK
+sudo curl -o apphub-linux-amd64.tar.gz $DOWNLOADLINK
 tar -zxf apphub-linux-amd64.tar.gz
 rm -f apphub-linux-amd64.tar.gz
 cd ./apphub-linux-amd64 || { echo "Failed to enter directory"; exit 1; }
